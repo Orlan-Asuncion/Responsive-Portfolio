@@ -1,19 +1,26 @@
 /* Top navigation */
 
-#topNav {
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+#navbar  {
   width: 100%;
   padding-top: 40px;
   background-color: #ffffff;
+  color: dark;
 }
-
-.navbar {
-  max-width: 960px;
-  margin: 0 auto; 
-} 
 
 .navbar-brand {
   background-color: blue;
   font-weight: 700;
+  padding: 5px;
+  float: left;
 }
 
 

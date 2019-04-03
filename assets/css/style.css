@@ -1,0 +1,38 @@
+
+
+#topNav {
+    width: 100%;
+    padding-top: 40px;
+    background-color: #ffffff;
+}
+
+.navbar {
+    max-width: 960px;
+    margin: 0 auto; 
+ } 
+.img-thumbnail{
+    float: left;
+    width: 200px;
+    background-color: aqua;
+    padding: 20px;
+
+}
+.autho-img{
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid-black;
+    width: 200px;
+    height: auto;
+
+}
+/* media queries for responsiveness */
+
+@media screen and (max-width: 980px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {

@@ -1,38 +1,68 @@
-
-
-#topNav {
-    width: 100%;
-    padding-top: 40px;
-    background-color: #ffffff;
+body{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    position: center;
+    padding: 5px;
+    margin: 0;
 }
 
-.navbar {
-    max-width: 960px;
-    margin: 0 auto; 
+.navbar-brand {
+    width: 200px;
+    height: 50px;
+    margin: 5px; 
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background: rgb(85, 85, 226);
+    
  } 
+ .nav-link{
+     width:100px;
+     height: 50px;
+     text-align: center;
+     font-size: 24px;
+     color: white;
+     margin: 5px;
+     border: 1px solid red;
+     border-radius: 5px;
+     background: rgb(85, 85, 226);
+ }
+ 
+
 .img-thumbnail{
     float: left;
-    width: 200px;
-    background-color: aqua;
-    padding: 20px;
+    width: 350px;
+    height: 150px;
+}        
 
-}
-.autho-img{
-    padding: 20px;
-    margin: 5px;
-    border: 1px solid-black;
-    width: 200px;
-    height: auto;
-
-}
-/* media queries for responsiveness */
-
-@media screen and (max-width: 980px) {
+.portfolio-item{
+    float: left;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin:5px;
     
 }
-
-@media screen and (max-width: 768px) {
-    
+#formGroupExampleInput3{
+    width: 960;
+    height: 200px;
 }
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 
-@media screen and (max-width: 640px) {
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+

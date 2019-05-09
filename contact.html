@@ -1,73 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>contact</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  
+
 </head>
+
 <body>
-      <div class="container">
-        <nav class="navbar  navbar-top-fixed navbar-expand-md navbar-light bg-white pt-3 pb-0">
-            <a class="navbar-brand" id="brand" href="#">Orlando C. Asuncion</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
-              <ul class="navbar-nav ">
-                <li class="nav-item ">
-                  <a class="nav-link" href="index.html">About</a>
-                <li class="nav-item ">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-      </div>  
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-                <h3>Contact</h3>
-            </div>
-            
-          </div>
-            <form>
-                <div class="form-group">
-                  <label for="formGroupExampleInput2">Name</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="John Smith">
-                </div>         
-                <div class="form-group">
-                  <label for="formGroupExampleInput2">Email</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Message</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Message here">              
-                  
-                </div>
-              
-                  <button type="submit" class="btn btn-success">Submit</button>
-            </form>
-          </div>
-    </div>
-  </div>        
   <div class="container">
-      <div class="col-12">
-          <div class="card-footer text-center text-#777 bg-light mt-3 py-4 border border-info border-top border-bottom-0 border-left-0 border-right-0">
-  
-          Copyright &copy;
-  
-          </div>
+    <nav class="navbar  navbar-top-fixed navbar-expand-md navbar-light bg-white pt-3 pb-0">
+      <a class="navbar-brand" id="brand" href="#">Orlando C. Asuncion</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">About Me</a>
+          <li class="nav-item ">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
       </div>
-  </div>   
+    </nav>
+  </div>
+  <!-- <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Contact Me</h3>
+      </div>
+    </div>
+  </div>
+  <div class="container- fluid ">
+    <div class="row">
+      <div class="col-md-6">
+        <p>Orlando C. Asuncion</p>
+        <br>
+        <P>Address: 3150 Emerald Pointe Dr.</P>
+        <p> Apt # 202A</p>
+        <p> Hollywood, FL 33021</p>
+        <br>
+        <p>Phone # (209)624-9203</p>
+        <p>email: oasuncionjr1961@gmail.com</p>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Email</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Message</label>
+            <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Message here">
+
+          </div>
+
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div> -->
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Me</h2>
+      <p><em>Please call or send me an email</em></p>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="assets/images/ProfilePic.jpg" style="width:100%">
+
+        <address class="address">
+          <em>Orlando C. Asuncion</em><br>
+          Address:<br>
+          3150 Emerald Pointe Drive<br>
+          Hollywood, Fl 33021<br>
+          USA<br>
+          email:<br>
+          oasuncionjr1961@gmail.com<br>
+          Phone:<br>
+          (209)624-9203
+
+        </address>
+
+      </div>
+      <div class="col-md-6">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="example@gmail.com">
+          <!-- <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">             -->
+          <label for="message">Message</label>
+          <textarea id="subject" name="subject" placeholder="Message.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-md-12">
+      <div
+        class="card-footer text-center text-#777 bg-#0a9e6d mt-3 py-4 border border-info border-top border-bottom-0 border-left-0 border-right-0">
+
+        Copyright &copy;
+
+      </div>
+    </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>

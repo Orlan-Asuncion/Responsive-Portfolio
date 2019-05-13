@@ -1,153 +1,156 @@
 #body{
-    margin: 0;
-    padding: 0;
-  
+  margin: 0;
+  padding: 0;
+
 }
 .row{
-    position: center;
-    padding: 5px;
-    margin: 0;
+  position: center;
+  padding: 5px;
+  margin: 0;
 }
-navbar{
-  background-color: #0a9e6d;
-}
+/* .navbar{
+background-color: #2952db; 
+} */
 .navbar-brand {
 
-    width: 200px;
-    height: 50px;
-    margin: 5px; 
-    text-align: center;
-    font-size: 20px;
-    padding: 10px;
-    color: white;
-    border-radius: 3px;
-    background: #0a9e6d; 
-    border: 1px white;
-    
- } 
- .nav-item{
-     width:150px;
-     height: 50px;
-     text-align: center;
-     font-size: 20px;
-     color: white;
-     margin: 5px;
-     border: 1px solid white;
-     border-radius: 3px;
-    border: 1px solid;
-    background: #0a9e6d; 
- } 
- 
+  width: 200px;
+  height: 50px;
+  margin: 5px; 
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+  background: #2952db;  
+  border: 1px white;
+  
+} 
+.nav-item{
+   width:150px;
+   height: 50px;
+   text-align: center;
+   font-size: 20px;
+   color: white;
+   margin: 5px;
+   border: 1px solid white;
+   border-radius: 3px;
+  border: 1px solid;
+  background: #2952db;  
+} 
+
 
 .img-thumbnail{
-    float: left;
-    width: 350px;
-    height: 300px;
-    
+  float: left;
+  width: 350px;
+  height: 300px;
+  
 }        
 
 .portfolio-item{
-    float: left;
-    width: 350px;
-    height: 200px;
-    padding: 10px;
-    margin:5px;
-    
+  float: left;
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  margin:5px;
+  
 }
 h3, h2 {
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    line-height: 22px;
-    border-bottom: 2px solid #eeeeee;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: 700;
-    color: white;
-    border: 1px solid;
-    background-color: #0a9e6d; 
-    text-align: center;
-  }
-  h5{
-    font-family: Georgia, Times, "Times New Roman", serif;
-    text-align: center;
-    padding: 30px;
-  }
-  footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #cccccc;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    height: 50px;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Style inputs */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  address { 
-    display: block;
-    font-style: italic;
-    text-align: center;
-  }
-  /* Style the container/contact section */
-  .container {
-    border-radius: none;
-    background-color: #742c2c;
-    padding: 10px;
-    color:white;
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
+  padding: 15px;
+  margin: 15px;
+  line-height: 22px;
+  border: 1px solid #eeeeee;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: white;
+  border: 1px solid;
+  background-color: #2952db; 
+  text-align: center;
+}
+.media{
+  font-size: 14px;
+  color: blue;
+}
+h5{
+  font-family: Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  padding: 30px;
+}
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #cccccc;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+address { 
+  display: block;
+  font-style: italic;
+  text-align: center;
+}
+/* Style the container/contact section */
+.container {
+  border-radius: none;
+  background-color: #742c2c;
+  padding: 10px;
+  color:white;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* #formGroupExampleInput3{
-    width: 960;
-    height: 200px;
+  width: 960;
+  height: 200px;
 } */
 
 
 @media screen and (max-width: 980px) {
-  
+
 }
 
 @media screen and (max-width: 768px) {
-  
+
 }
 
 @media screen and (max-width: 640px) {
-  
+
 }
- 

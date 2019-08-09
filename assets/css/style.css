@@ -1,12 +1,12 @@
-#body{
-  margin: 0;
+body{
+  margin: 0 auto;
   padding: 0;
 
 }
 .row{
   position: center;
   padding: 5px;
-  margin: 0;
+  margin: 0 auto;
 }
 /* .navbar{
 background-color: #2952db; 
@@ -22,7 +22,7 @@ background-color: #2952db;
   color: white;
   border-radius: 3px;
   background: #2952db;  
-  border: 1px white;
+  border: 1px solid white;
   
 } 
 .nav-item{
@@ -37,34 +37,40 @@ background-color: #2952db;
   border: 1px solid;
   background: #2952db;  
 } 
-
-
-.img-thumbnail{
-  float: left;
+img{
   width: 350px;
-  height: 300px;
-  
-}        
+  float:left;
+  margin: 1.66%;
+ height: auto;
+}
+       
 
 .portfolio-item{
   float: left;
-  width: 350px;
+  width: 300px;
   height: 200px;
   padding: 10px;
   margin:5px;
   
 }
-h3, h2 {
-  padding: 15px;
-  margin: 30px 0 30px 0;
-  line-height: 22px;
+.contact{
+  text-align: center;
+  border: 1px solid white;
+  background-color: #2952db;
+  height: 50px;
+}
+h3{
+  
+  width:350px;
   border: 1px solid #eeeeee;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: white;
-  border: 1px solid;
+  border: 1px solid red;
   background-color: #2952db; 
   text-align: center;
+  float: left;
+  margin: 1.66%;
 }
 .media{
   font-size: 14px;
@@ -123,11 +129,11 @@ address {
 }
 
 /* Create two columns that float next to eachother */
-.column {
+.col-md-4{
   float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
+  width: 30%;
+  margin-top: 1.66%;
+  
 }
 
 /* Clear floats after the columns */
@@ -136,7 +142,17 @@ address {
   display: table;
   clear: both;
 }
-
+#container{
+  margin: 20px auto;
+  max-width: 980px
+}
+/* .square{
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  background-color: rgb(125, 125, 216);
+} */
 /* #formGroupExampleInput3{
   width: 960;
   height: 200px;

@@ -1,4 +1,4 @@
-console.log('It works');
+// console.log('It works');
 $(document).ready(function () {
     $('.submit').click(function (event) {
         event.default()

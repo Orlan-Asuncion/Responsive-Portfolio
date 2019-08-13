@@ -37,12 +37,13 @@ background-color: #2952db;
   border: 1px solid;
   background: #2952db;  
 } 
-img{
-  width: 350px;
+ img{
+  width: 100%;
   float:left;
   margin: 1.66%;
- height: auto;
-}
+  border: 2px solid red;
+  height: auto;
+} 
        
 
 .portfolio-item{
@@ -61,7 +62,7 @@ img{
 }
 h3{
   
-  width:350px;
+  width:100%;
   border: 1px solid #eeeeee;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;

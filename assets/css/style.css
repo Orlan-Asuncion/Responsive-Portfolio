@@ -1,6 +1,10 @@
 body{
   margin: 0 auto;
   padding: 0;
+  background:  #5433FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 
 }
 .row{
@@ -42,7 +46,7 @@ background-color: #2952db;
   float:left;
   margin: 1.66%;
   border: 2px solid red;
-  height: auto;
+  height: 250;
 } 
        
 
@@ -124,9 +128,12 @@ address {
 /* Style the container/contact section */
 .container {
   border-radius: none;
-  background-color: #742c2c;
   padding: 10px;
   color:white;
+  background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* Create two columns that float next to eachother */

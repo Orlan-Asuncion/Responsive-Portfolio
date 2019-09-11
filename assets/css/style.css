@@ -6,7 +6,7 @@ body{
   background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   /*background: #a73737;  fallback for old browsers  */
-
+  box-sizing: border-box;
 
 }
 .row{
@@ -91,11 +91,12 @@ h5{
 }
 footer {
   margin:0 auto;
-  font-size: 12px;
+  font-size: 18px;
   color: #cccccc;
   text-align: center;
   /* border-top: 1px solid #4aaaa5; */
-  height: 50px;
+  height: 150px;
+  outline: none;
 }
 * {
   box-sizing: border-box;
